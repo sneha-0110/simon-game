@@ -1,0 +1,90 @@
+body{
+background-color: #011F3F;
+text-align: center;
+/* margin:30px; */
+}
+h1{
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.heading{
+  letter-spacing: 5px;
+  font-family: cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+margin-left: 5px;
+padding:5px 5px;
+}
+.container{
+
+  padding-top: 50px;
+  /* position: sticky; */
+
+}
+.panel{
+   /* padding: 20px; */
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.bottom-left-panel{
+  background-color: blue;
+  border-bottom-left-radius: 200px;
+
+}
+.bottom-right-panel{
+  background-color: red;
+  border-bottom-right-radius: 200px;
+
+}
+.top-left-panel{
+  background-color: yellow;
+  border-top-left-radius: 200px;
+
+}
+.top-right-panel{
+  background-color: green;
+  border-top-right-radius: 200px;
+
+}
+.logo{
+  background-color: black;
+  width: 200px;
+  height:200px;
+  border-radius: 100%;
+display: inline-block;
+position: absolute;
+/* position: sticky; */
+top: 310px;
+left: 670px;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over {
+  background-color:rgba(255, 99, 71, 0.5);
+  opacity: 0.8;
+
+    /* padding-top: 50px; */
+
+}
+h2{
+  color: white;
+
+}
+.center-heading{
+  margin-top: 65px;
+  text-decoration: inherit;
+  font-size: 2rem;
+  padding: 2px;
+}
+
+.logog{
+  top: 350px;
+}
